@@ -1,0 +1,28 @@
+{
+  "name": "postgres-api-workshop",
+  "version": "1.0.0",
+  "description": "You've learned that Node JS unlocks the power of JavaScript outside of the browser, and you've wrangled some PostgreSQL databases... Now, let's take the first step toward putting them together by starting to design an API for a simple blog website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-table": "node db/scripts/create_table.js",
+    "populate-table": "node db/scripts/upload_collection.js",
+    "delete-table": "node db/scripts/delete_table.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/workshops_node-postgres-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/workshops_node-postgres-api/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/workshops_node-postgres-api#readme",
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^8.4.0"
+  }
+}
